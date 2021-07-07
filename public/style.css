@@ -1,0 +1,55 @@
+/* tags */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Open Sans', arial,sans-serif;
+  padding: 0;
+  padding-bottom: 56px;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+#background-image {
+  position: fixed;
+  z-index: -1;
+  opacity: 0.5;
+  width: 100vw;
+  height: 100vh;
+}
+
+#scoreboard {
+  width: 500px;
+  padding: 2rem;
+  margin: 0 auto;
+}
+
+#scoreboard h3 {
+  font-size: 7rem;
+  margin: 10px 0;
+}
+
+#scoreboard h4 {
+  margin: 0;
+  font-size: 3rem;
+  width: 25px;
+  cursor: pointer;
+  user-select: none; /* Prevents highlighting when clicking */
+}
+
+.player-score {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 70px;
+}
+
+.down-arrow {
+  transform: rotateZ(180deg);
+}
